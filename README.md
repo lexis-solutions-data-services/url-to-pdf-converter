@@ -16,13 +16,30 @@
 | Stat | Value |
 |------|-------|
 | **Version** | `0.0.1` |
-| **Last Update** | Nov 30, 2025 |
+| **Last Update** | Dec 1, 2025 |
 
 ---
 
 
 
 The URL to PDF Converter is a web automation tool that uses Puppeteer to render web pages and convert them into PDF format. It automatically waits for network idle (ensuring all resources are loaded), waits for fonts to load, handles backgrounds properly, and saves each PDF with a sanitized filename based on the page title.
+
+
+## 💻 Integration Examples
+
+This repository includes example code showing how to integrate the `url-to-pdf-converter` actor into your projects.
+
+You can find example implementations in the [`examples/`](./examples) folder:
+- **TypeScript/JavaScript**: See [`examples/typescript/`](./examples/typescript) for a complete TypeScript example
+- **Python**: See [`examples/python/`](./examples/python) for a complete Python example
+
+Each example includes:
+- Ready-to-use code templates
+- Setup instructions
+- Documentation links
+
+---
+
 
 ## Use Cases
 
